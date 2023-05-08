@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./bootstrap.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 
 </head>
 
@@ -17,16 +18,16 @@
 
 
     <div class="headbar">
-        <div class="container-fluid mt-3">
-            <div class="row ">
+        <div class="container-fluid mt-3 h-100 ">
+            <div class="row headtop ">
                 <div class="col-12">
                     <div class="row d-flex align-content-center">
                         <div class="offset-1 col-6 ms-sm-2 ms-md-3 ms-lg-5">
-                            <p class="hallname ">SAMARA BANQUET HALL</p>
+                            <p class="hallname" data-aos="fade-right">SAMARA BANQUET HALL</p>
                         </div>
                         <div
                             class="col-5 d-flex pe-3 offset-lg-3 col-lg-2 align-content-center justify-content-end me-md-0 pe-md-3 pe-lg-2 me-lg-0">
-                            <div class="row menubar">
+                            <div class="row menubar" data-aos="fade-left">
                                 <span id="menu-btn">MENU <i class="fas fa-bars"></i></span>
                             </div>
                         </div>
@@ -34,17 +35,20 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="row  d-flex mt-3 justify-content-center align-items-center">
+            <div class="row h-75 position-relative">
+                <div class="col-12 ">
+                    <div class="row head-div d-flex mt-3 justify-content-center align-items-center">
                         <div class="col-12 text-center mt-3 px-5">
-                            <p class="header-title">with you in all your celebrations</p>
-                            <p class="mt-2 mb-3 header-sub">kuhvauc ayckh oiguayc</p>
+                            <p class="header-title" data-aos="fade-up" data-aos-delay="150">with you in all your
+                                celebrations</p>
+                            <p class="mt-2 mb-3 header-sub" data-aos="fade-up" data-aos-delay="300">kuhvauc ayckh
+                                oiguayc</p>
                         </div>
                     </div>
                     <div class="row  d-flex mt-3 justify-content-center align-items-center">
 
-                        <button class="contact-btn col-5 col-md-3">Contact Now</button>
+                        <button class="contact-btn col-5 col-md-3" data-aos="zoom-in" data-aos-delay="450">Contact
+                            Now</button>
                     </div>
                 </div>
             </div>
@@ -92,62 +96,211 @@
     <!-- service section start -->
     <section>
         <div class="container-fluid mt-5 mb-3">
-            <div class="row ">
-                <div class="col-lg-5 col-12 ps-5">
-                    <h2 class="text-center ">25 years of excellent service</h2>
-                    <p class="text-center  ">
+            <div class="row">
+                <div class="col-lg-5 col-12 px-3">
+                    <h2 class="text-center service-text1">25 years of excellent service</h2>
+                    <p class="service-text2 " data-aos="zoom-in-right" data-aos-delay="150">
                         SAMARA Banquet Hall has proudly provided exceptional service for 25 years. Our commitment to
                         excellence and attention to detail have made us one of the most sought-after event venues in the
                         area. Our spacious and elegant halls, state-of-the-art sound system, and beautiful decor provide
                         the perfect backdrop for any occasion.
                     </p>
-                    <p class="text-center">
+                    <p class="service-text2" data-aos="zoom-in-right" data-aos-delay="300">
                         Our experienced and professional event planners work tirelessly to ensure that every event is
                         flawless, from weddings and birthdays to corporate events and conferences. Our talented chefs
                         create delicious and personalized menus that cater to all dietary needs and preferences.
                     </p>
-                    <p class="text-center">
+                    <p class="service-text2" data-aos="zoom-in-right" data-aos-delay="150">
                         At SAMARA Banquet Hall, we are dedicated to making every event a memorable and enjoyable
                         experience for our clients and their guests. We are honored to have served our community for 25
                         years and look forward to many more years of creating unforgettable moments and memories.
                     </p>
                 </div>
-                
-                <div class="col-lg-7 col-12">
-                    <div class="row h-100 ">
-                        <div class="col-6  d-flex align-items-center">
-                            <div class="row  justify-content-center justify-content-sm-end">
-                                <div class="col-6 col-sm-2 col-lg-6 mb-lg-3">
-                                    <img src="./images/1.jpg" class="propimg" alt="">
+
+                <div class="col-lg-7 col-12 mt-3 mt-lg-0">
+                    <div class="row h-100 " data-aos="zoom-in">
+                        <div class="col-6   d-flex align-items-center">
+                            <div dir="rtl"
+                                class="row swiper propertySwiper justify-content-center justify-content-sm-end">
+                                <div class="   swiper-wrapper">
+                                    <div class="swiper-slide ">
+                                        <img src="./images/1.jpg" class="propimg " alt="">
+                                    </div>
+                                    <div class="swiper-slide ">
+                                        <img src="./images/2.jpg" class="propimg " alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./images/3.jpg" class="propimg " alt="">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-6 ">
-                            <div class="row mb-5 ">
-                                <div class="col-2 offset-2 mb-3">
-                                    <img src="./images/2.jpg" class="propimg" alt="">
+                            <div class="row mb-5 swiper   propertySwiper">
+                                <div class="col-2 offset-2 mb-3 swiper-wrapper ">
+                                    <div class="swiper-slide">
+                                        <img src="./images/2.jpg" class="propimg " alt="">
+                                    </div>
+                                    <div class="swiper-slide ">
+                                        <img src="./images/3.jpg" class="propimg " alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./images/1.jpg" class="propimg " alt="">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="row mt-5">
-                                <div class="col-2 offset-2 mt-3">
-                                    <img src="./images/3.jpg" class="propimg" alt="">
+                            <div class="row mt-5 swiper   propertySwiper">
+                                <div class="col-2 offset-2 mt-3 swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="./images/3.jpg" class="propimg " alt="">
+                                    </div>
+                                    <div class="swiper-slide ">
+                                        <img src="./images/1.jpg" class="propimg " alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./images/2.jpg" class="propimg " alt="">
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>           
+                    </div>
                 </div>
-                
+
             </div>
         </div>
     </section>
     <!-- service section end -->
+    <!-- photo location section start -->
+    <section>
+        <div class="container-fluid bg-dark text-light">
+            <div class="row justify-content-center d-flex align-items-center py-4 px-2 ">
+                <div class="col-12 col-sm-8 col-lg-11 ">
+                    <span class="photo-head-text1" data-aos="fade-up" data-aos-delay="150">We have</span>
+                </div>
+                <div class="col-12 col-sm-8 col-md-11">
+                    <span class="photo-head-text2" data-aos="fade-up" data-aos-delay="450">beautiful photo
+                        location</span>
+                </div>
+            </div>
+            <div class="row pb-4">
+                <div class="col-12 col-md-6 justify-content-end d-flex" data-aos="fade-right" data-aos-delay="600">
+                    <div class="swiper mySwiper4">
+                        <div class="swiper-wrapper">
 
+                            <div class="swiper-slide swiper-slide2">
+                                <img src="./images/2a.jpg" alt="" class="photo-location">
+                            </div>
+                            <div class="swiper-slide swiper-slide2">
+                                <img src="./images/1a.jpg" alt="" class="photo-location">
+                            </div>
+                            <div class="swiper-slide swiper-slide2">
+                                <img src="./images/3a.jpg" alt="" class="photo-location">
+                            </div>
 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mt-5 mt-md-0">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-10 offset-1">
+                            <article>
+                                <p data-aos="fade-left" data-aos-delay="600">Located in the heart of the city, SAMARA
+                                    Banquet Hall boasts a stunning outdoor
+                                    photography location that is perfect for capturing beautiful and memorable moments.
+                                </p>
+                                <p data-aos="fade-left" data-aos-delay="600">Our picturesque garden is adorned with lush
+                                    greenery and colorful flowers, providing
+                                    the perfect backdrop for any occasion. With its tranquil and serene ambiance, the
+                                    outdoor photography location at SAMARA Banquet Hall is ideal for wedding ceremonies,
+                                    engagement photo shoots, and other special events. </p>
+                                <p data-aos="fade-left" data-aos-delay="600">Whether you're looking to capture intimate
+                                    moments or create beautiful memories with
+                                    your loved ones, our outdoor photography location is the perfect setting to make
+                                    your dreams come true. Whether you are looking for a wedding venue or a location for
+                                    a special event, SAMARA Banquet Hall is a breathtakingly beautiful setting that is
+                                    sure to provide the perfect backdrop for your photos.</p>
+                                <p data-aos="fade-left" data-aos-delay="600">So come and explore the beauty of SAMARA
+                                    Banquet Hall's outdoor photography location,
+                                    and let us help you make your special day even more unforgettable.</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- photo location section end -->
+    <!-- wedding memories section start -->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center py-5">
+                    <p>weddings Memories</p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+
+                <div class="swiper mySwiper3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/1a.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/1a.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/1a.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- wedding memories section end -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/52df452c36.js" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
     <script>
 
+        AOS.init({
+            duration: 1200,
+            offset: 150,
+        });
+
+        // var swiper = new Swiper(".mySwiper3", {
+        //     slidesPerView: 1,
+        //     spaceBetween: 30,
+        //     // loop: true,
+        //     pagination: {
+        //         el: ".swiper-pagination",
+        //         clickable: true,
+        //     },
+        //     navigation: {
+        //         nextEl: ".swiper-button-next",
+        //         prevEl: ".swiper-button-prev",
+        //     },
+        //     breakpoints: {
+        //         0: {
+        //             slidesPerView: 1,
+        //             spaceBetween: 30,
+        //         },
+        //       1200: {
+        //             slidesPerView: 2,
+        //             spaceBetween: 0,
+        //         },
+        //         1600: {
+        //             slidesPerView: 3,
+        //             spaceBetween: 0,
+        //         },
+        //     },
+        //     autoplay: {
+        //         delay: 1500,
+        //         disableOnInteraction: false,
+        //     },
+        // });
         var swiper = new Swiper(".header-swiper", {
             loop: true,
             speed: 1500,
@@ -162,20 +315,38 @@
             }
         });
 
-        var swiper2 = new Swiper(".propertySwiper", {
-            grabCursor: true,
-            effect: "creative",
-            creativeEffect: {
-                prev: {
-                    shadow: true,
-                    translate: ["-120%", 0, -500],
-                },
-                next: {
-                    shadow: true,
-                    translate: ["120%", 0, -500],
-                },
+        var swiper = new Swiper(".propertySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                // type: "progressbar",
             },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            grabCursor: true,
+            slidesPerView: 1,
+            spaceBetween: 60,
+            speed: 500,
+            loop: true,
+            autoplay: {
+                delay: 5000,
+            }
         });
+
+        var swiper = new Swiper(".mySwiper4", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            loop: true,
+            speed: 2000,
+        });
+
 
     </script>
 
